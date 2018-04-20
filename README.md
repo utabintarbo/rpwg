@@ -46,6 +46,8 @@ Enter pass phrase: my dog has fleas
 password length (10):
 
 
+
+
 Username = loginname
 
 Domain = facebook.com
@@ -53,6 +55,7 @@ Domain = facebook.com
 Pass Phrase = my dog has fleas
 
 PIN = 1003
+
 
 Password = HeYwrM3Lc#
 
