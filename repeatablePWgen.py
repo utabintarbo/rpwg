@@ -1,5 +1,5 @@
 # ? Robert Costello 2018
-# This software is released into the public domain. Attribution is appreciated.
+# MIT License. Attribution is appreciated.
 
 
 #! /usr/bin/python
@@ -120,9 +120,11 @@ def getInfo():
     return user, TLD, pass_phrase, PIN, length
 
 def main():
+    print "\n\n"
     user, TLD, pass_phrase, PIN, pw_len = getInfo()
     password = makePassword(user,TLD,pass_phrase,PIN,pw_len)
 
+    print "\n\n"
     print "Username = %s\nDomain = %s\nPass Phrase = %s\nPIN = %s\n"%(user,TLD,pass_phrase,PIN)
     print "Password = " + password
 
