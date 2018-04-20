@@ -31,4 +31,20 @@ Usage--
 
 The CLI implementation uses raw_input to gather username, domain, PIN, passphrase, and password length (with a default of 10). It returns a reiteration of the parameters, along with a random-looking password.
 
+Example:
+>python repeatablePWgen.py
 
+
+Enter username: loginname
+Enter domain: facebook.com
+Enter PIN: 1003
+Enter pass phrase: my dog has fleas
+password length (10):
+
+
+Username = loginname
+Domain = facebook.com
+Pass Phrase = my dog has fleas
+PIN = 1003
+
+Password = HeYwrM3Lc#
